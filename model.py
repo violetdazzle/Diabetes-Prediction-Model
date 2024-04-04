@@ -1,7 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
-from PIL import Image, ImageTk
-import pandas as pd
+from Pillow import Image, ImageTk
+import pandas as panda 
+
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from keras.models import Sequential
